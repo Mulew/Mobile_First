@@ -296,6 +296,99 @@ input{
     .nav{
         display: none;
     }  
+    .popup-container{
+        background-color: #466bb0;
+        display: none;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        position: absolute;
+    }
+    .popup_head{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .popup_title{
+        color: white;
+        padding: 10px;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .popup_close_button{
+        border: none;
+        outline: none;
+        font-size: 20px;
+        margin-right: 0px;
+        margin-top: -1px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .navs ul{
+        display: flex;
+        list-style-type: none;
+        margin-left: -18px;
+    }
+    .navs ul li{
+        margin: 6px;
+        padding: 3px;
+    }
+    .navs ul li a{
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        outline: 2px solid white;
+        padding: 5px;
+    }
+    .imagess{
+        margin-left: 20px;
+    }
+    .imagess img{
+        width:90%;
+        height: 300px;
+    }
+    .paragraph{
+        padding: 5px;
+        font-size: 20px;
+        color: white;
+        margin-left: 20px;
+        margin-right: 25px;
+        justify-content: justify;
+    }
+    .links img
+    {
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .links a{
+        border: 2px solid white;
+        width: 80%;
+        margin: 5px;
+        padding: 5px;
+        color: white;
+        background-color: #FF6B00;
+        text-align: center;
+        text-decoration: none;
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .links a:hover{
+        background-color: #babab6;
+    }
+    
+
+  
 }
 @media (min-width: 769px) {
     .nav{
