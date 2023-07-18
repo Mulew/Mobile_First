@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("see_live").innerHTML="See Live";
         document.getElementById("see_source").innerHTML="See Source";
         document.getElementById("bod").style.background="rgba(0, 0, 0, 0.598)";
-        document.getElementById("popup-container").style.background="white";
         
         for (let i = 0; i < listofitems.length; i++) {
             listitems.innerHTML+= "<li><a href='#'>" + listofitems[i] + "</a></li>";
