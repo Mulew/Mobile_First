@@ -301,12 +301,11 @@ input{
         display: none;
         flex-wrap: wrap;
         flex-direction: column;
-        padding: 0px;
-        margin: 0px;
+        position: fixed;
         top: 0px;
         left: 0px;
         right: 0px;
-        position: absolute;
+        
     }
     .popup_head{
         display: flex;
@@ -350,7 +349,7 @@ input{
     }
     .imagess img{
         width:90%;
-        height: 300px;
+        height: 250px;
     }
     .paragraph{
         padding: 5px;
