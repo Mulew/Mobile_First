@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const images=document.querySelector("#image");
     const paragraph=document.querySelector("#paragraph");
     const listofitems=["HTML","CSS","Bootstrap","JavaScript"];
-    const p=" A daily selection of privately personalized readsno accounts or sign-ups required. has been the industrys standard";
+    const p=" I can help you build a product ,feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.";
     const liveimage=document.querySelector("#liveimage");
     const sourceimage=document.querySelector("#sourceimage");
     function look() {
