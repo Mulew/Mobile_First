@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("see_live").href="mob-first.html";
         document.getElementById("see_source").href="https://github.com/Mulew/Mobile_First";
         document.getElementById("see_live").href="mob-first.html";
-        popuptitle.innerHTML="<h1>React Project</h1>";
+        popuptitle.innerHTML="<h1>Javascript Project</h1>";
         document.getElementById("see_live").innerHTML="See Live";
         document.getElementById("see_source").innerHTML="See Source";
         document.getElementById("bod").style.background="rgba(0, 0, 0, 0.598)";
