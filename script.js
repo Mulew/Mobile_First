@@ -31,6 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const p=" I can help you build a product ,feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.";
     const liveimage=document.querySelector("#liveimage");
     const sourceimage=document.querySelector("#sourceimage");
+    const apple1=document.getElementById("apple1");
+    const apple2=document.getElementById("apple2");
+    const def="images/img3.png";
     function look() {
         document.querySelector("#popup-container").style.display = "flex";
         document.getElementById("see_live").href="mob-first.html";
@@ -40,7 +43,21 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("see_live").innerHTML="See Live";
         document.getElementById("see_source").innerHTML="See Source";
         document.getElementById("bod").style.background="rgba(0, 0, 0, 0.598)";
-        
+        document.getElementById("apple3").src="images/apple3.jpg";
+        apple1.src="images/apple4.jpg";
+        apple2.src="images/apple2.jpg";
+        apple1.addEventListener("mouseover",function(){
+            document.getElementById("image").src="images/apple.jpg";
+        });
+        apple1.addEventListener("mouseout",function(){
+            document.getElementById("image").src=def;
+        });
+        apple2.addEventListener("mouseover",function(){
+            document.getElementById("image").src="images/apple2.jpg";
+        });
+        apple3.addEventListener("mouseover",function(){
+            document.getElementById("image").src="images/apple3.jpg";
+        });
         for (let i = 0; i < listofitems.length; i++) {
             listitems.innerHTML+= "<li><a href='#'>" + listofitems[i] + "</a></li>";
         }

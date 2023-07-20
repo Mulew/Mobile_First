@@ -305,7 +305,7 @@ input{
         top: 0px;
         left: 0px;
         right: 0px;
-        
+        overflow: auto;
     }
     .popup_head{
         display: flex;
@@ -343,6 +343,18 @@ input{
         color: white;
         outline: 2px solid white;
         padding: 5px;
+    }
+    .imagessssss{
+        background-color: aqua;
+        margin-top: 20px;
+        float: left;
+        margin-right: 38px;
+        margin-left: 20px;
+    }
+    .imagessssss img{
+        float: left;
+        width: 33.3%;
+        height: 20%;
     }
     .imagess{
         margin-left: 20px;
@@ -645,6 +657,7 @@ input{
         transform: translate(-50%);
         margin: auto;
     }
+
     .popup_head{
         display: flex;
         justify-content: space-between;
@@ -689,10 +702,24 @@ input{
         width: 450px;
         height: 350px;
     }
-    .paragraph{0
+    .im{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .imagessssss{
+        margin-left: 45px;
+    }
+    .imagessssss img{
+        float: left;
+        width: 33.3%;
+        height: 30;
+
+    }
+    .paragraph{
         overflow-wrap:"break-word";
         margin-left: 50px;
-        margin-top: 5px;
+        margin-top: 15px;
         margin-right: 5px;
     }
     .links{
