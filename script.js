@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
         popuptitle.innerHTML="<h1>Javascript Project</h1>";
         document.getElementById("see_live").innerHTML="See Live";
         document.getElementById("see_source").innerHTML="See Source";
-        document.getElementById("bod").style.background="rgba(0, 0, 0, 0.598)";
         document.getElementById("apple3").src="images/apple3.jpg";
         apple1.src="images/apple4.jpg";
         apple2.src="images/apple2.jpg";
@@ -66,6 +65,8 @@ document.addEventListener('DOMContentLoaded', function() {
         sourceimage.src="images/img3.png";
         paragraph.innerHTML="<p>"+ `${p}`+ "</p>";
         document.getElementById("popup_close_button").innerHTML="&times;";
+        document.querySelectorAll("#bod").style.backgroundColor ="black";
+        //document.querySelector("#popup-container").style.opacity = "1 !important";
     }
 
     function clo() {
