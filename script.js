@@ -29,8 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const paragraph=document.querySelector("#paragraph");
     const listofitems=["HTML","CSS","Bootstrap","JavaScript"];
     const p=" I can help you build a product ,feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.";
-    const liveimage=document.querySelector("#liveimage");
-    const sourceimage=document.querySelector("#sourceimage");
     const apple1=document.getElementById("apple1");
     const apple2=document.getElementById("apple2");
     const def="images/img3.png";
@@ -42,6 +40,14 @@ document.addEventListener('DOMContentLoaded', function() {
         popuptitle.innerHTML="<h1>Javascript Project</h1>";
         document.getElementById("see_live").innerHTML="See Live";
         document.getElementById("see_source").innerHTML="See Source";
+        const llive=document.getElementById("see_live");
+        const imgg=document.createElement("img");
+        imgg.setAttribute("src","images/apple4.jpg");
+        imgg.setAttribute("width","20px");
+        imgg.setAttribute("height","20px");
+        imgg.setAttribute("border-radius","20px");
+        imgg.setAttribute("margin-Left","20px");
+        llive.appendChild(imgg);//adding image to see live button
         document.getElementById("apple3").src="images/apple3.jpg";
         apple1.src="images/apple4.jpg";
         apple2.src="images/apple2.jpg";
@@ -61,8 +67,6 @@ document.addEventListener('DOMContentLoaded', function() {
             listitems.innerHTML+= "<li><a href='#'>" + listofitems[i] + "</a></li>";
         }
         images.src="images/img3.png";
-        liveimage.src="images/img3.png";
-        sourceimage.src="images/img3.png";
         paragraph.innerHTML="<p>"+ `${p}`+ "</p>";
         document.getElementById("popup_close_button").innerHTML="&times;";
         document.querySelectorAll("#bod").style.backgroundColor ="black";
